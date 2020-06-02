@@ -25,6 +25,29 @@ html {
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
+
+  
+/* Diseño para celulares */
+#columna1, #columna2, #columna3 {
+  float:none;
+  width:100%;
+}
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 800px) {
+  #columna1, #columna2 {
+    float:left;
+    width:50%;
+  }
+}
+
+/* Diseño para PC */ 
+@media screen and (min-width: 1025px) {
+  #columna1, #columna2, #columna3 {
+  float:left;
+  width:33%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";

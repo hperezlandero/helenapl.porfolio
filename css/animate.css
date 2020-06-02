@@ -48,6 +48,28 @@ Copyright (c) 2015 Daniel Eden
   animation-duration: .75s;
 }
 
+
+/* Diseño para celulares */
+#columna1, #columna2, #columna3 {
+  float:none;
+  width:100%;
+}
+
+/* Diseño para tabletas */ 
+@media screen and (min-width: 800px) {
+  #columna1, #columna2 {
+    float:left;
+    width:50%;
+  }
+}
+
+/* Diseño para PC */ 
+@media screen and (min-width: 1025px) {
+  #columna1, #columna2, #columna3 {
+  float:left;
+  width:33%;
+}
+
 @-webkit-keyframes bounce {
   from, 20%, 53%, 80%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
