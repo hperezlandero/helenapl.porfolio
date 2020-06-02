@@ -64,7 +64,7 @@ body {
 
   
 /* Diseño para celulares */
-#columna1, #columna2, #columna3 {
+#columna1, {
   float:none;
   width:100%;
 }
