@@ -49,11 +49,6 @@ Copyright (c) 2015 Daniel Eden
 }
 
 
-/* Diseño para celulares */
-#columna1, #columna2, #columna3 {
-  float:none;
-  width:100%;
-}
 
 /* Diseño para tabletas */ 
 @media screen and (min-width: 800px) {
